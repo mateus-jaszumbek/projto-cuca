@@ -75,6 +75,7 @@ h1{
 color: rgba(20, 178, 230, 0.681);
 }
 .buenas {
+    margin-top: 2rem;
     color: rgba(16, 117, 226, 0.825);
     font-size: 1em;
     margin-left: 5rem;
@@ -85,9 +86,12 @@ color: rgba(20, 178, 230, 0.681);
     letter-spacing: 1px;
 }
 .p-section {
-    text-align: 1.2em;
+    text-align: 1.9em;
     text-align: center;
     color: #666161c4;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
 }
 .p-empresas {
     text-align: center;
@@ -99,6 +103,9 @@ color: rgba(20, 178, 230, 0.681);
 }
 .parceiros p {
     margin-bottom: 4rem;
+}
+.img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .div-footer{
     width: 100%;
