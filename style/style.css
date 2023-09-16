@@ -75,8 +75,9 @@ h1{
 color: rgba(20, 178, 230, 0.681);
 }
 .buenas {
-    color: rgba(14, 239, 239, 0.825);
+    color: rgba(16, 117, 226, 0.825);
     font-size: 1em;
+    margin-left: 5rem;
 }
 .h3-section {
     text-align: center;
@@ -157,7 +158,7 @@ color: rgba(20, 178, 230, 0.681);
     transition: color 0.3s;
 }
 .col-1 a:hover {
-    color: rgba(12, 145, 145, 0.792);
+    color: rgba(16, 117, 226, 0.825);
 }
 .copy {
     background-color: #333;
