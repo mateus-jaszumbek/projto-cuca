@@ -109,18 +109,28 @@ color: rgba(20, 178, 230, 0.681);
 }
 .div-footer{
     width: 100%;
-    height: 20rem;
+    height: 30rem;
 }
 .col-1 {
-    height: 20rem;
+    height: 100%;
     float: left; /* Coluna flutuante à esquerda */
     width: 50%; /* Largura da coluna esquerda */
     padding: 20px;
     box-sizing: border-box; /* Inclui o padding na largura total */
     background-color: #f0f0f0;
 }
+.col-1 ul{
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+}
+.col-2 ul{
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+}
 .col-2 {
-    height: 20rem;
+    height: 100%;
     float: left; /* Coluna flutuante à esquerda */
     width: 50%; /* Largura da coluna direita */
     padding: 20px;
@@ -142,6 +152,8 @@ color: rgba(20, 178, 230, 0.681);
     transition: color 1s;
     color: inherit;
     transition: background 0.5s;
+    display: block;
+    margin: 7% 0 0 34%;
 }
 .whatsapp a:hover {
     background-color: rgba(3, 168, 83, 0.563);
