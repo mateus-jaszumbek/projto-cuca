@@ -13,7 +13,7 @@
     <!--  Estilo do footer e nav-bar -->
     <link rel="stylesheet" href="/style.css">
     <!--  Estilo das section -->
-    <link rel="stylesheet" href="/style/stylevida.css">
+    <link rel="stylesheet" href="/style/stylecadastro.css">
 </head>
 
 <body>
@@ -29,43 +29,39 @@
         </div>
     </div>
 
-    <section class="section-body">
-        <div class="primeira-section">
-            <div class="icon">
-                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-                <lord-icon src="https://cdn.lordicon.com/hdiorcun.json" trigger="hover"
-                    colors="primary:#c71f16,secondary:#121331" style="width:250px;height:250px">
-                </lord-icon>
-            </div>
-            <div class="primeiro-col-vida">
-                <h3>
-                    Um Seguro de Vida online pra ousar durante a vida
-                </h3>
-                <p>
-                    É seguro de viver pra fazer mais hoje, mais do seu jeito e pra garantir o futuro de quem é
-                    importante pra você. Personalize o Seguro de Vida online com as coberturas e assistências que quiser
-                    e fique numa boa pra aproveitar todos os momentos.
-                </p>
-                
-            </div>
+</head>
+<body>
+    <div class="container1">
+        <h1>Cadastro</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
 
-        </div>
-        <div class="segunda-section">
-            <p class="inicio">Seguros apartir de R$ 7,90</p>
-            <div class="formulario">
-                <form action="">
-                    <label for="rad">seguro de R$ 7,90</label>
-                    <input type="radio" name="rad" class="radio"> <br>
-                    <label for="rad">seguro de R$ 21</label>
-                    <input type="radio" name="rad" class="radio"><br>
-                    <label for="rad">seguro de R$ 42</label>
-                    <input type="radio" name="rad" class="radio"><br>
-                    <label for="rad">seguro de R$ 74</label>
-                    <input type="radio" name="rad" class="radio"><br>
-                </form>
-            </div>
-        </div>
-    </section>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="feminino">
+            <label for="feminino">Feminino</label>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade">
+                <option value="vazio">Escolha um Estado</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="bh">Belo Horizonte</option>
+                <option value="poa">Porto Alegre</option>
+                <option value="pr">Paraná</option>
+            </select>
+
+            <input type="submit" value="Cadastrar" style="margin-left: 35%;">
+        </form>
+    </div>
 
     <div class="div-footer">
         <section class="col-1">

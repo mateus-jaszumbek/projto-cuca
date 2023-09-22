@@ -4,14 +4,14 @@
     display: flex;
 }
 .primeira-section {
-    background-color: red;
+
     width: 100%;
     height: 35rem;
     text-align: center;
     float: inline-end;
 }
 .primeira-section h3 {
-    margin-top: 10rem;
+
     font-size: 2rem;
 }
 .primeira-section p {
@@ -20,8 +20,14 @@
     font-size: 1.2rem;
     margin-left: 4rem;
 }
+.primeiro-col-vida {
+background-color: rgba(255, 13, 13, 0.788);
+border-radius:  20px 0 20px 0;
+width: 89%;
+    height: 15rem;
+    margin-left: 25%;
+}
 .segunda-section {
-    background-color: blue;
     width: 100%;
     height: 35rem;
     text-align: center;
@@ -31,10 +37,33 @@
     text-align: center;
 }
 .inicio {
-    margin-top: 10rem;
-    font-size: 3rem;
+    margin-top: 13rem;
+    font-size: 2rem;
 }
 .radio {
-    width: 1rem;
-    height: 1rem;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.formulario {
+    color: #fff;
+    background: linear-gradient(to right, #10b4d9cd, #06ebd03d);
+    height: 10rem;
+    width: 90%;
+    float: right;
+    border-radius: 0 20px 0 20px;
+}
+.formulario form {
+margin-top: 1rem;
+}
+.icon {
+    width: 15rem;
+    height: 15rem;
+    border: solid 1PX black;
+    border-radius: 20px;
+   margin: 2rem 0 2rem 70%;
+   transition: background 1.4s;
+}
+.icon:hover {
+    background-color: rgba(31, 233, 216, 0.918);
+    border: solid 1px #fff;
 }
