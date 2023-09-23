@@ -187,6 +187,10 @@ color: rgba(20, 178, 230, 0.681);
     bottom: 0;
     height: 2rem;
 }
+.map {
+    height: 15rem;
+    border: solid 2px #fff(0, 0, 0, 0.74);
+}
 .whatsapp-link {
     position: fixed; /* Posição fixa na tela */
     left: 20px; /* Distância da borda esquerda */
