@@ -1,6 +1,6 @@
 .section-body {
     width: 100%;
-    height: auto;
+    height: 40rem;
     display: flex;
 }
 .primeira-section {
@@ -24,7 +24,7 @@
 background-color: rgba(255, 13, 13, 0.788);
 border-radius:  20px 0 20px 0;
 width: 89%;
-    height: 15rem;
+    height: 20rem;
     margin-left: 25%;
 }
 .segunda-section {
